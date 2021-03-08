@@ -1,0 +1,29 @@
+baseurl: /
+collections:
+  tooltips: {output: false}
+company_name: muellerzr
+default_badges: {colab: true}
+defaults:
+- scope: {path: '', type: pages}
+  values: {comments: true, layout: page, search: true, sidebar: home_sidebar, topnav: topnav}
+- scope: {path: '', type: tooltips}
+  values: {comments: true, layout: page, search: true, tooltip: true}
+description: Taking fastai to the next level
+exclude: [.idea/, .gitignore, vendor]
+feedback_disable: true
+github_editme_path: null
+google_analytics: null
+google_search: null
+highlighter: rouge
+kramdown: {auto_ids: true, hard_wrap: false, syntax_highlighter: rouge}
+markdown: kramdown
+output: web
+plugins: [jekyll-remote-theme]
+remote_theme: fastai/nbdev-jekyll-theme
+repository: muellerzr/walk-with-deep-learning
+sidebars: [home_sidebar]
+site_title: walkwithdeeplearning
+topnav_title: walkwithdeeplearning
+twitter_username: muellerzr
+url: https://muellerzr.github.io/walk-with-deep-learning
+use_math: true
